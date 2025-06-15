@@ -9,8 +9,12 @@
 
 // Add your code right below, good luck!
 
-
-
+const firstName = "Christian"
+const lastName = "Merrick"
+const thisYear = 2025
+const birthYear = 1994
+const greeting = `Hi, my name is 
+${firstName} ${lastName}' and I am ${thisYear-birthYear} years old.`
 
 
 // Do not change this
