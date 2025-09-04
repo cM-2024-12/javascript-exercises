@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-    <script>
-        function camelize(str){
+function camelize(str){
             return str
                 .split("-")
                 .map(
@@ -9,6 +7,5 @@
                 )
                 .join('');
         }
-    </script>
-
-</html>
+let str = 'monkey-test-ayy'
+console.log(camelize(str))
